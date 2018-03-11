@@ -1,0 +1,2 @@
+boxes:
+  "win2012r2-x64": "http://int-resources.ops.puppetlabs.net/vagrant/win2012r2-x64-vbox4216-nocm.box"

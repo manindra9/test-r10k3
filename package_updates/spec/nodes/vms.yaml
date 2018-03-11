@@ -1,0 +1,23 @@
+---
+vms:
+  - name: "master.vm"
+    box:  "puppetlabs/centos-7.0-64-nocm"
+    roles: [ "master" ]
+  - name: "centos6.vm"
+    box: "puppetlabs/centos-6.6-64-nocm"
+    roles: [ "agent" ]
+  - name: "centos6-no-pe"
+    box: "puppetlabs/centos-6.6-64-nocm"
+    roles: [ ]
+  - name: "centos7.vm"
+    box: "puppetlabs/centos-7.0-64-nocm"
+    roles: [ "agent" ]
+  - name: "ubuntu12.04.vm"
+    box: "puppetlabs/ubuntu-12.04-64-nocm"
+    roles: [ "agent" ]
+  - name: "ubuntu14.04.vm"
+    box: "puppetlabs/ubuntu-14.04-64-nocm"
+    roles: [ "agent" ]
+  - name: "win2012.vm"
+    box: "win2012r2-x64"
+    roles: [ "agent" ]

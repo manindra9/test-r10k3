@@ -1,0 +1,36 @@
+{
+  "name": "puppetlabs-package_updates",
+  "version": "1.0.0",
+  "author": "Puppet Labs",
+  "summary": "A module for monitoring and applying package updates",
+  "license": "Apache-2.0",
+  "source": "https://github.com/puppetlabs/puppetlabs-package_updates",
+  "project_page": "https://github.com/puppetlabs/puppetlabs-package_updates",
+  "issues_url": "https://github.com/puppetlabs/puppetlabs-package_updates/issues",
+  "dependencies": [
+  
+  ],
+  "data_provider": null,
+  "tags": [
+    "patch",
+    "updates",
+    "packages"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6.0",
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04",
+        "16.04"
+      ]
+    }
+  ]
+}

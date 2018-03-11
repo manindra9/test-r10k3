@@ -1,0 +1,73 @@
+2017-05-07 3.1.1
+- Abandon old test for json features already present when requiring json libs
+
+2017-04-15 3.1.0
+- Run remove options as a secondary configuration item
+- fix broken simplecov report
+
+2017-04-08 3.0.2
+- Filter out name and provider when writing the configuration
+
+2017-04-03 3.0.1
+- Add option for logging and timeout
+
+2017-04-01 3.0.0
+- First Puppet 4 version
+
+2017-04-01 2.2.3
+- Last Puppet 3 version
+
+2016-02-19 2.2.2
+- Support proxies in configuration output for rhsm_register type
+
+2016-05-16 2.0.0
+- Puppet compatibility with 3.x and 4.x
+- Update readme for examples of hiera data for config type
+- Add facts about subscription pools for users without RHEL subscriptions
+- Switch to using external caching module for pool and repo facts
+- Add Code-climate coverage for rSpec tests
+- Continue duplicating large ammounts of code in offense of DYI
+- Don't trash external facts directories on pluginsync
+- Basic acceptance tests for CentOS and RedHat Enterprise Linux
+- Less typos and mispellings in the README file now
+
+2016-04-27 1.12.0
+- add caching to repos facts consistent with Katello Agent defaults
+- change default to latest for certificate packages (may cause churn)
+- require force == true for resubscribing
+
+2016-04-15 1.11.1
+- document the new facts
+
+2016-04-02 1.10.1
+- do not truncate centuries when parsing rhsm_pool start and end dates
+- document FIXME status and rhsm_pool functions
+- default configuration example changed to clarify the string interpolation
+
+2016-03-29 1.10.0
+- lint metadata
+- switch from validation to munge of dates for start and end of pool dates
+
+2016-03-03 1.9.3
+- clean the module
+
+2016-01-28 1.8.4
+- support server names that contain zeros
+
+2015-11-26 1.8.3
+- support hostnames that contain zeros
+
+2015-10-19 1.8.2
+- working travis builds (excluding Ruby 2.2)
+
+2015-10-16 1.8.1
+- gitter integration
+
+2015-10-11 Release 1.8.1
+- throw error if environment is given with an activation key
+
+2015-10-10 Release 1.8.0
+- handle bad certificates by using a transition to reinstall the CA package
+
+2015-08-24 Release 0.0.1
+- forked jlaska/puppet-subscription_manager
